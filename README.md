@@ -1,4 +1,4 @@
 # timer-rttss
 
-#https://timer-rttss.netlify.app
+#https://clock-rttss.netlify.app
 Deployed on Netlify
