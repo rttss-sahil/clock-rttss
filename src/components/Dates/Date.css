@@ -1,0 +1,18 @@
+.dates {
+ width: 60%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.date {
+ font-size: 2.5rem;
+ font-weight: 800;
+ color: rgba(252, 242, 190, 0.5);
+}
+
+.month {
+ font-size: 0.75rem;
+ margin-bottom: 10px;
+ color: rgba(180, 180, 180, 0.5);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./img/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="SCSS+React styled Timer Clock App" />
+  <link rel="apple-touch-icon" href="./img/logo.png" />
+  <link rel="manifest" href="manifest.json" />
+  <title>Clock | RTTSS</title>
+</head>
+
+<body>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+  </style>
+  <noscript>Please enable JavaScript to run this app. Do that by jumping to browser settings and search the
+    same.</noscript>
+  <div id="app"></div>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register('./serviceworker.js')
+        .catch(err => console.log("ServiceWorker Error"))
+    }
+  </script>
+</body>
+
+</html>
